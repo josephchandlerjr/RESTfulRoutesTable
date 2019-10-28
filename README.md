@@ -1,0 +1,8 @@
+# RESTful Routes
+* INDEX
+* NEW
+* CREATE
+* SHOW
+* EDIT
+* UPDATE
+* DESTROY

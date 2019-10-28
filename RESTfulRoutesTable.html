@@ -1,0 +1,83 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <title>RESTful Routes</title>
+  </head>
+  <body>
+	  
+    <div class="container">
+      <div class="jumbotron">
+        <h1 class="display-4">RESTful Routes</h1>
+        <p class="lead">A table of all 7 RESTful Routes</p>
+      </div>
+
+      <table class="table">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Path</th>
+      <th scope="col">HTTP Verb</th>
+      <th scope="col">Purpose</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">INDEX</th>
+      <td>/cats</td>
+      <td>GET</td>
+      <td>List all cats</td>
+    </tr>
+    <tr>
+      <th scope="row">NEW</th>
+      <td>/cats/new</td>
+      <td>GET</td>
+      <td>Display new cat form </td>
+    </tr>
+    <tr>
+      <th scope="row">CREATE</th>
+      <td>/cats</td>
+      <td>POST</td>
+      <td>Create new cat and then redirect somewhere</td>
+    </tr>
+    <tr>
+      <th scope="row">SHOW</th>
+      <td>/cats/:id</td>
+      <td>GET</td>
+      <td>Show info about one specific cat</td>
+    </tr>
+    <tr>
+      <th scope="row">EDIT</th>
+      <td>/cats/:id/edit</td>
+      <td>GET</td>
+      <td>Show form to edit one specific cat</td>
+    </tr>
+    <tr>
+      <th scope="row">UPDATE</th>
+      <td>/cats/:id</td>
+      <td>PUT</td>
+      <td>Update a specific cat and then redirect somewhere</td>
+    </tr>
+    <tr>
+      <th scope="row">DELETE</th>
+      <td>/cats/:id</td>
+      <td>DELETE</td>
+      <td>Delete a specific cat and then redirect somewhere</td>
+    </tr>
+  </tbody>
+</table>
+    </div>
+    
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>
